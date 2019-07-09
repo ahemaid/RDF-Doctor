@@ -18,7 +18,7 @@ manual corrections process.  The results from empirical evaluations provide conc
 evidence that the presented approach is able to effectively detect a wide range of
 syntax errors and correct a subset of them
 
-**How to run RDF-Doctor as a standalone version **
+** How to run RDF-Doctor as a standalone version **
 
 To run RDF-Doctor from command line, use the following command line with the input file location. But the current folder where you are running the RDF-Doctor will be considered as an output folder:
 ```
