@@ -1,0 +1,29 @@
+
+Error1: line 3126:85 token recognition error at: '~'
+<http://dbpedia.org/ontology/Athlete> <http://www.w3.org/2000/01/rdf-schema#label> :a~b .
+
+                                                                                     ^    
+Error2: line 3126:86  prefix is undefined 
+<http://dbpedia.org/ontology/Athlete> <http://www.w3.org/2000/01/rdf-schema#label> :a~b .
+
+                                                                                      ^   
+Error3: line 3126:86 Missing '.' at the end of a triple
+<http://dbpedia.org/ontology/Athlete> <http://www.w3.org/2000/01/rdf-schema#label> :a~b .
+
+                                                                                      ^   
+Error4: line 3126:88 extraneous input '.' expecting {'a', '@a', CHARS}
+<http://dbpedia.org/ontology/Athlete> <http://www.w3.org/2000/01/rdf-schema#label> :a~b .
+
+                                                                                        ^ 
+Error5: line 11861:47 Predicate cannot be a blank node
+<http://dbpedia.org/ontology/sheading> _:blank "sheading"@en .
+
+                                               ^               
+Error6: line 18519:140 incorrect form of a Literal
+<http://dbpedia.org/ontology/headteacher> <http://www.w3.org/2000/01/rdf-schema#label> "abc"@en^^<http://www.w3.org/2001/XMLSchema#string>  .
+
+                                                                                                                                            ^ 
+Error7: line 27916:0  '@forSome' cannot be used in Turtle 
+<http://dbpedia.org/ontology/mostDownPoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+^                                                                                                                                              

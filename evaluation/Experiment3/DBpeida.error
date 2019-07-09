@@ -1,0 +1,103 @@
+
+Error1: line 30:17 token recognition error at: '"This ontology is generated from the manually created specifications in the DBpedia Mappings\n'
+  rdfs:comment """This ontology is generated from the manually created specifications in the DBpedia Mappings
+
+                 ^                                                                                            
+Error2: line 30:2 Bad end of a triple with ';'
+  rdfs:comment """This ontology is generated from the manually created specifications in the DBpedia Mappings
+
+  ^                                                                                                           
+Error3: line 31:14 Predicate cannot be a literal
+              Wiki. Each release of this ontology corresponds to a new release of the DBpedia data set which
+
+              ^                                                                                              
+Error4: line 31:14 Object of a triple is missing
+              Wiki. Each release of this ontology corresponds to a new release of the DBpedia data set which
+
+              ^                                                                                              
+Error5: line 31:14 Missing '.' at the end of a triple
+              Wiki. Each release of this ontology corresponds to a new release of the DBpedia data set which
+
+              ^                                                                                              
+Error6: line 31:18 extraneous input '.' expecting {'a', '@a', CHARS}
+              Wiki. Each release of this ontology corresponds to a new release of the DBpedia data set which
+
+                  ^                                                                                          
+Error7: line 31:33 extraneous input 'of' expecting {'a', '@a', CHARS}
+              Wiki. Each release of this ontology corresponds to a new release of the DBpedia data set which
+
+                                 ^                                                                           
+Error8: line 31:79 extraneous input 'of' expecting {'a', '@a', CHARS}
+              Wiki. Each release of this ontology corresponds to a new release of the DBpedia data set which
+
+                                                                               ^                             
+Error9: line 32:84 extraneous input 'of' expecting {'a', '@a', CHARS}
+              contains instance data extracted from the different language versions of Wikipedia. For
+
+                                                                                    ^                 
+Error10: line 32:96 extraneous input '.' expecting {'a', '@a', CHARS}
+              contains instance data extracted from the different language versions of Wikipedia. For
+
+                                                                                                ^     
+Error11: line 33:60 extraneous input ',' expecting {'a', '@a', CHARS}
+              information regarding changes in this ontology, please refer to the DBpedia Mappings Wiki."""@en ;
+
+                                                            ^                                                    
+Error12: line 33:103 extraneous input '.' expecting {'a', '@a', CHARS}
+              information regarding changes in this ontology, please refer to the DBpedia Mappings Wiki."""@en ;
+
+                                                                                                       ^         
+Error13: line 33:106 token recognition error at: '"@en ;\n'
+              information regarding changes in this ontology, please refer to the DBpedia Mappings Wiki."""@en ;
+
+                                                                                                          ^      
+Error14: line 34:2 Subject cannot be a string
+  cc:license <http://www.gnu.org/copyleft/fdl.html>, <http://creativecommons.org/licenses/by-sa/3.0/> .
+
+  ^                                                                                                     
+Error15: line 18474:19 token recognition error at: '"Organisation or City who is the operator of an ArchitecturalStructure, PublicTransitSystem, ConcentrationCamp, etc. Not to confuse with builder, owner or maintainer.\n'
+    rdfs:comment """Organisation or City who is the operator of an ArchitecturalStructure, PublicTransitSystem, ConcentrationCamp, etc. Not to confuse with builder, owner or maintainer.
+
+                   ^                                                                                                                                                                      
+Error16: line 18474:4 Bad end of a triple with ';'
+    rdfs:comment """Organisation or City who is the operator of an ArchitecturalStructure, PublicTransitSystem, ConcentrationCamp, etc. Not to confuse with builder, owner or maintainer.
+
+    ^                                                                                                                                                                                     
+Error17: line 18475:0 Predicate cannot be a literal
+Domain is unrestricted since Organization is Agent but City is Place. Range is unrestricted since anything can be operated."""@en ; 
+
+^                                                                                                                                    
+Error18: line 18475:0 Object of a triple is missing
+Domain is unrestricted since Organization is Agent but City is Place. Range is unrestricted since anything can be operated."""@en ; 
+
+^                                                                                                                                    
+Error19: line 18475:0 Missing '.' at the end of a triple
+Domain is unrestricted since Organization is Agent but City is Place. Range is unrestricted since anything can be operated."""@en ; 
+
+^                                                                                                                                    
+Error20: line 18475:7 extraneous input 'is' expecting {'a', '@a', CHARS}
+Domain is unrestricted since Organization is Agent but City is Place. Range is unrestricted since anything can be operated."""@en ; 
+
+       ^                                                                                                                             
+Error21: line 18475:42 extraneous input 'is' expecting {'a', '@a', CHARS}
+Domain is unrestricted since Organization is Agent but City is Place. Range is unrestricted since anything can be operated."""@en ; 
+
+                                          ^                                                                                          
+Error22: line 18475:60 extraneous input 'is' expecting {'a', '@a', CHARS}
+Domain is unrestricted since Organization is Agent but City is Place. Range is unrestricted since anything can be operated."""@en ; 
+
+                                                            ^                                                                        
+Error23: line 18475:68 extraneous input '.' expecting {'a', '@a', CHARS}
+Domain is unrestricted since Organization is Agent but City is Place. Range is unrestricted since anything can be operated."""@en ; 
+
+                                                                    ^                                                                
+Error24: line 18475:76 extraneous input 'is' expecting {'a', '@a', CHARS}
+Domain is unrestricted since Organization is Agent but City is Place. Range is unrestricted since anything can be operated."""@en ; 
+
+                                                                            ^                                                        
+Error25: line 18475:122 extraneous input '.' expecting {'a', '@a', CHARS}
+Domain is unrestricted since Organization is Agent but City is Place. Range is unrestricted since anything can be operated."""@en ; 
+
+                                                                                                                          ^          
+Error26: line 18475:125 token recognition error at: '"@en ; \n'
+Domain is unrestricted since Organization is Agent but City is Place. Range is unr

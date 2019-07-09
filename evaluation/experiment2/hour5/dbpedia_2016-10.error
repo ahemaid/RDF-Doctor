@@ -1,0 +1,13 @@
+
+Error1: line 3467:88 incorrect form of Prefixed Namespace, it cannot end with '.'
+<http://dbpedia.org/ontology/Drama> <http://www.w3.org/2000/01/rdf-schema#label> ex.:o  .
+
+                                                                                        ^ 
+Error2: line 5806:0 '<=' symbol cannot be used in Turtle
+<http://dbpedia.org/ontology/Novel> <http://www.w3.org/2000/01/rdf-schema#label> "roman"@fr .
+
+^                                                                                             
+Error3: line 27795:93 Bad Unicode Characters, Only HEX Characters are allowed
+<http://dbpedia.org/ontology/wins> <http://www.w3.org/2000/01/rdf-schema#label> "\U0000WXYZ" .
+
+                                                                                             ^ 

@@ -1,0 +1,41 @@
+
+Error1: line 3008:8 Subject cannot be a string
+"Hello" <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+
+        ^                                                                                         
+Error2: line 14902:108 token recognition error at: '~'
+<http://dbpedia.org/ontology/countryWithFirstAstronaut> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> :a~b .
+
+                                                                                                            ^    
+Error3: line 14902:109  prefix is undefined 
+<http://dbpedia.org/ontology/countryWithFirstAstronaut> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> :a~b .
+
+                                                                                                             ^   
+Error4: line 14902:109 Missing '.' at the end of a triple
+<http://dbpedia.org/ontology/countryWithFirstAstronaut> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> :a~b .
+
+                                                                                                             ^   
+Error5: line 14902:111 extraneous input '.' expecting {'a', '@a', CHARS}
+<http://dbpedia.org/ontology/countryWithFirstAstronaut> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> :a~b .
+
+                                                                                                               ^ 
+Error6: line 17727:90 incorrect quotes of a literal
+<http://dbpedia.org/ontology/building> <http://www.w3.org/2000/01/rdf-schema#label> 'abc" .
+
+                                                                                          ^ 
+Error7: line 21803:46 Predicate cannot be a blank node
+<http://dbpedia.org/ontology/patronSaint> [ ] <http://dbpedia.org/ontology/Person> .
+
+                                              ^                                      
+Error8: line 27186:102 token recognition error at: '"@en .\n'
+<http://dbpedia.org/ontology/populationRural> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "'abc""@en .
+
+                                                                                                      ^      
+Error9: line 27187:0 Missing '.' at the end of a triple
+<http://dbpedia.org/ontology/populationRural> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+
+^                                                                                                                                                       
+Error10: line 28739:87 incorrect form of a Literal
+<http://dbpedia.org/ontology/issn> <http://www.w3.org/2000/01/rdf-schema#label> 123abc .
+
+                                                                                       ^ 

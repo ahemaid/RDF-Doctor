@@ -1,0 +1,45 @@
+
+Error1: line 5666:0 @keywords is unkown directive in Turtle
+<http://dbpedia.org/ontology/HistoricBuilding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+
+^                                                                                                                                        
+Error2: line 6577:0 Bad end of a triple with ';'
+<http://dbpedia.org/ontology/Humorist> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://mappings.dbpedia.org/index.php/OntologyClass:Humorist> .
+
+^                                                                                                                                                  
+Error3: line 20239:83 token recognition error at: '"άθλημα .\n'
+<http://dbpedia.org/ontology/sport> <http://www.w3.org/2000/01/rdf-schema#label> """άθλημα .
+
+                                                                                   ^         
+Error4: line 28054:122 token recognition error at: '"@en .\n'
+<http://dbpedia.org/ontology/wikiPageModified> <http://www.w3.org/2000/01/rdf-schema#comment> "Reserved for DBpedia ''''''"@en .
+
+                                                                                                                          ^      
+Error5: line 8239:48 no viable alternative at input ':a.:b.:c.<http://dbpedia.org/ontology/MilitaryStructure><http://www.w3.org/2000/01/rdf-schema#label>'
+<http://dbpedia.org/ontology/MilitaryStructure> <http://www.w3.org/2000/01/rdf-schema#label> "군사 건축물"@ko .
+
+                                                ^                                                          
+Error6: line 14135:2 no viable alternative at input ':x^'
+:x^ns:p <http://www.w3.org/2000/01/rdf-schema#comment> "reflection coefficient"@en .
+
+  ^                                                                                  
+Error7: line 14135:8 ns prefix is undefined 
+:x^ns:p <http://www.w3.org/2000/01/rdf-schema#comment> "reflection coefficient"@en .
+
+        ^                                                                            
+Error8: line 20240:0 Missing '.' at the end of a triple
+<http://dbpedia.org/ontology/sport> <http://www.w3.org/2000/01/rdf-schema#label> "sport"@fr .
+
+^                                                                                             
+Error9: line 28055:0 incorrect quotes of a literal
+<http://dbpedia.org/ontology/wikiPageModified> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+
+^                                                                                                                                         
+Error10: line 28055:0 Missing '.' at the end of a triple
+<http://dbpedia.org/ontology/wikiPageModified> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+
+^                                                                                                                                         
+Error11: line 29529:0 @keywords is unkown directive in Turtle
+<http://dbpedia.org/datatype/decibar> <http://www.w3.org/2000/01/rdf-schema#label> "decibar"@en .
+
+^                                                                                                 

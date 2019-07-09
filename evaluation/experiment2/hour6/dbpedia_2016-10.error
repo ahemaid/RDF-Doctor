@@ -1,0 +1,45 @@
+
+Error1: line 2:0 Prefix Namespace cannot start with '.' 
+<http://dbpedia.org/ontology/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+
+^                                                                                                                           
+Error2: line 2984:96  prefix is undefined 
+<http://dbpedia.org/ontology/PeriodicalLiterature> <http://www.w3.org/ns/prov#wasDerivedFrom> :o%2 .
+
+                                                                                                ^    
+Error3: line 2984:96 Missing '.' at the end of a triple
+<http://dbpedia.org/ontology/PeriodicalLiterature> <http://www.w3.org/ns/prov#wasDerivedFrom> :o%2 .
+
+                                                                                                ^    
+Error4: line 2984:96 extraneous input '%2' expecting {<EOF>, '@forAll', '@forSome', 'a', '@a', '@keywords', '@prefix', '@base', '@BASE', '{', '[', '(', KW_BASE, KW_PREFIX, NumericLiteral, BooleanLiteral, String, BlankNode, CHARS, IRIREF, PNAME_NS, PrefixedName, BAD_PNAME_LN_STARTS_WITH_DOT, BAD_PNAME_LN_ENDS_WITH_DOT, BAD_STRING_LITERAL_QUOTE_WITH_BAD_UCHAR, BAD_STRING_LITERAL_SINGLE_QUOTE_WITH_BAD_UCHAR, BAD_STRING_LITERAL_LONG_SINGLE_QUOTE_WITH_BAD_UCHAR, BAD_STRING_LITERAL_LONG_QUOTE_WITH_BAD_UCHAR, BAD_STRING_LITERAL_QUOTE_WITH_BAD_ESCAPE, BAD_STRING_LITERAL_SINGLE_QUOTE_WITH_BAD_ESCAPE, BAD_STRING_LITERAL_LONG_SINGLE_QUOTE_WITH_BAD_ESCAPE, BAD_STRING_LITERAL_LONG_QUOTE_WITH_BAD_ESCAPE, BAD_IRIREF_WITH_SPACE, BAD_IRIREF_WITH_MULTIPLE_ANGLE_BRACKETS, BAD_IRIREF_WITH_PARENTHESES, BAD_STRING_LITERAL_SINGLE_QUOTE, BAD_STRING_LITERAL_QUOTE, BAD_STRING_LITERAL_LONG_SINGLE_QUOTE, BAD_STRING_LITERAL_LONG_QUOTE, BAD_STRING_LITERAL_LONG_QUOTE_TOO_MANY, BAD_STRING_LITERAL_LONG_SINGLE_QUOTE_TOO_MANY}
+<http://dbpedia.org/ontology/PeriodicalLiterature> <http://www.w3.org/ns/prov#wasDerivedFrom> :o%2 .
+
+                                                                                                ^    
+Error5: line 3245:81 Object of a triple is missing
+<http://dbpedia.org/ontology/Venue> <http://www.w3.org/2000/01/rdf-schema#label> :%o2 .
+
+                                                                                 ^      
+Error6: line 3245:81 Missing '.' at the end of a triple
+<http://dbpedia.org/ontology/Venue> <http://www.w3.org/2000/01/rdf-schema#label> :%o2 .
+
+                                                                                 ^      
+Error7: line 3245:81 extraneous input ':' expecting {<EOF>, '@forAll', '@forSome', 'a', '@a', '@keywords', '@prefix', '@base', '@BASE', '{', '[', '(', KW_BASE, KW_PREFIX, NumericLiteral, BooleanLiteral, String, BlankNode, CHARS, IRIREF, PNAME_NS, PrefixedName, BAD_PNAME_LN_STARTS_WITH_DOT, BAD_PNAME_LN_ENDS_WITH_DOT, BAD_STRING_LITERAL_QUOTE_WITH_BAD_UCHAR, BAD_STRING_LITERAL_SINGLE_QUOTE_WITH_BAD_UCHAR, BAD_STRING_LITERAL_LONG_SINGLE_QUOTE_WITH_BAD_UCHAR, BAD_STRING_LITERAL_LONG_QUOTE_WITH_BAD_UCHAR, BAD_STRING_LITERAL_QUOTE_WITH_BAD_ESCAPE, BAD_STRING_LITERAL_SINGLE_QUOTE_WITH_BAD_ESCAPE, BAD_STRING_LITERAL_LONG_SINGLE_QUOTE_WITH_BAD_ESCAPE, BAD_STRING_LITERAL_LONG_QUOTE_WITH_BAD_ESCAPE, BAD_IRIREF_WITH_SPACE, BAD_IRIREF_WITH_MULTIPLE_ANGLE_BRACKETS, BAD_IRIREF_WITH_PARENTHESES, BAD_STRING_LITERAL_SINGLE_QUOTE, BAD_STRING_LITERAL_QUOTE, BAD_STRING_LITERAL_LONG_SINGLE_QUOTE, BAD_STRING_LITERAL_LONG_QUOTE, BAD_STRING_LITERAL_LONG_QUOTE_TOO_MANY, BAD_STRING_LITERAL_LONG_SINGLE_QUOTE_TOO_MANY}
+<http://dbpedia.org/ontology/Venue> <http://www.w3.org/2000/01/rdf-schema#label> :%o2 .
+
+                                                                                 ^      
+Error8: line 5306:43 Bad syntax of IRI, IRI cannot contain space or newline
+/OntologyClass:EurovisionSongContestEntry> .
+
+                                           ^ 
+Error9: line 6578:6 incorrect form of Prefixed Namespace, it cannot start with '.'
+.eg:s <http://www.w3.org/ns/prov#wasDerivedFrom> <http://mappings.dbpedia.org/index.php/OntologyClass:Humorist> .
+
+      ^                                                                                                           
+Error10: line 12867:0 Too many DOT
+<http://dbpedia.org/ontology/closed> <http://www.w3.org/2000/01/rdf-schema#label> "closed"@en .
+
+^                                                                                               
+Error11: line 28023:105 Bad Unicode Characters, Only HEX Characters are allowed
+<http://dbpedia.org/ontology/capitalMountain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "\uWXYZ" .
+
+                                                                                                         ^ 

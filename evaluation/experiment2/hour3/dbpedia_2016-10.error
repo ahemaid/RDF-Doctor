@@ -1,0 +1,33 @@
+
+Error1: line 2:0 Missing ':' in Prefix directive
+<http://dbpedia.org/ontology/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+
+^                                                                                                                           
+Error2: line 6073:0 Too many DOT
+<http://dbpedia.org/ontology/ArtistDiscography> <http://www.w3.org/2000/01/rdf-schema#label> "dioscagrafaíocht an ealaíontóra"@ga .
+
+^                                                                                                                                   
+Error3: line 7040:2 'a' cannot be used as a subject
+a <http://www.w3.org/2000/01/rdf-schema#label> "personnage de bandes dessinées"@fr .
+
+  ^                                                                                  
+Error4: line 10193:2 no viable alternative at input ':x^'
+:x^ns:p <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+
+  ^                                                                                              
+Error5: line 10193:8 ns prefix is undefined 
+:x^ns:p <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+
+        ^                                                                                        
+Error6: line 18025:49 Predicate cannot be a blank node
+<http://dbpedia.org/ontology/alpsSoiusaCode> [ ] "алпски SOIUSA код"@sr .
+
+                                                 ^                        
+Error7: line 22653:48 Predicate cannot be a boolean value
+<http://dbpedia.org/ontology/numberOfCity> true <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+                                                ^                                                  
+Error8: line 25860:2 'a' cannot be used as a subject
+a <http://www.w3.org/2000/01/rdf-schema#domain> <http://dbpedia.org/ontology/Software> .
+
+  ^                                                                                      

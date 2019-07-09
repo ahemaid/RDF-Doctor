@@ -1,0 +1,33 @@
+
+Error1: line 525:2 token recognition error at: '\u0039 '
+:a\u0039 <http://www.w3.org/2002/07/owl#equivalentClass> <http://schema.org/Park> .
+
+  ^                                                                                 
+Error2: line 525:9  prefix is undefined 
+:a\u0039 <http://www.w3.org/2002/07/owl#equivalentClass> <http://schema.org/Park> .
+
+         ^                                                                          
+Error3: line 1384:102 Language tag cannot be a numeric value
+<http://dbpedia.org/ontology/CoalPit> <http://www.w3.org/2000/01/rdf-schema#label> "steenkolenmijn"@1 .
+
+                                                                                                      ^ 
+Error4: line 2551:0 '<=' symbol cannot be used in Turtle
+<http://dbpedia.org/ontology/Watermill> <http://www.w3.org/2000/01/rdf-schema#comment> "A watermill is a structure that uses a water wheel or turbine to drive a mechanical process such as flour, lumber or textile production, or metal shaping (rolling, grinding or wire drawing)"@en .
+
+^                                                                                                                                                                                                                                                                                           
+Error5: line 4254:0 Bad end of a triple with ';'
+<http://dbpedia.org/ontology/PokerPlayer> <http://www.w3.org/2000/01/rdf-schema#label> "Pokerspieler"@de .
+
+^                                                                                                          
+Error6: line 7827:112 incorrect quotes of a literal
+<http://dbpedia.org/ontology/RailwayStation> <http://www.w3.org/2000/01/rdf-schema#label> "stazioneferroviaria' .
+
+                                                                                                                ^ 
+Error7: line 12648:0 '=' sign cannot be used in Turtle
+<http://dbpedia.org/ontology/sea> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dbpedia.org/ontology/Place> .
+
+^                                                                                                                     
+Error8: line 18743:38 Bad syntax of IRI, IRI cannot contain space or newline
+<http://dbpedia. org/ontology/inflow> <http://www.w3.org/2000/01/rdf-schema#label> "Zufluss"@de .
+
+                                      ^                                                           

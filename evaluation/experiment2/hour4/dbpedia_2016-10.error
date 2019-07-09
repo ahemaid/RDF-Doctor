@@ -1,0 +1,37 @@
+
+Error1: line 7842:85 'a' cannot be used as an object
+<http://dbpedia.org/ontology/Poet> <http://www.w3.org/2002/07/owl#equivalentClass> a .
+
+                                                                                     ^ 
+Error2: line 8717:93 token recognition error at: '~'
+<http://dbpedia.org/ontology/winsAtSenEuro> <http://www.w3.org/2000/01/rdf-schema#domain>  :a~b .
+
+                                                                                             ^    
+Error3: line 8717:94  prefix is undefined 
+<http://dbpedia.org/ontology/winsAtSenEuro> <http://www.w3.org/2000/01/rdf-schema#domain>  :a~b .
+
+                                                                                              ^   
+Error4: line 8717:94 Missing '.' at the end of a triple
+<http://dbpedia.org/ontology/winsAtSenEuro> <http://www.w3.org/2000/01/rdf-schema#domain>  :a~b .
+
+                                                                                              ^   
+Error5: line 8717:96 extraneous input '.' expecting {'a', '@a', CHARS}
+<http://dbpedia.org/ontology/winsAtSenEuro> <http://www.w3.org/2000/01/rdf-schema#domain>  :a~b .
+
+                                                                                                ^ 
+Error6: line 17527:108 token recognition error at: '"@en .\n'
+<http://dbpedia.org/ontology/congressionalDistrict> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "'abc""@en .
+
+                                                                                                            ^      
+Error7: line 17528:0 Missing '.' at the end of a triple
+<http://dbpedia.org/ontology/congressionalDistrict> <http://www.w3.org/2000/01/rdf-schema#label> "congressional district"@en .
+
+^                                                                                                                              
+Error8: line 18771:44 Predicate cannot be a literal
+<http://dbpedia.org/ontology/coden> "Hello" <http://dbpedia.org/ontology/WrittenWork> .
+
+                                            ^                                           
+Error9: line 20571:47 Predicate cannot be a blank node
+<http://dbpedia.org/ontology/workArea> _:blank "Arbeitsplätze (m2)"@de .
+
+                                               ^                         
