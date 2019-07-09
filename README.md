@@ -20,3 +20,7 @@ for Viewing the parse tree use -v prefix as follows:
 ```
 java -jar RDFDoctor -v -i [inputFileLocation] -o [outputReportsLocation]
 ```
+for Activation of auto correction use -c prefix as follows:
+```
+java -jar RDFDoctor -c -i [inputFileLocation] -o [outputReportsLocation]
+```
