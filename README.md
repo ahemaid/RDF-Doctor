@@ -1,5 +1,5 @@
 # RDF-Doctor
-Over the years, the demand for the interoperability support between diverse applications has significantly increased.  Typically, the Resource Definition Framework
+Over the years, the demand for the interoperability support between diverse applications has significantly increased.  Typically, the Resource Description Framework
 (RDF) is utilized for interoperability support and allows for the representation of
 knowledge and data from various domains.  Moreover, vast amounts of data from
 heterogeneous data sources are continuously published in the RDF format.  Therefore, the RDF documents should be syntactically correct in order to enable software
