@@ -322,7 +322,7 @@ public class Main {
 		// check if there are some corrections done
 		if(!errorCorrectionsReport.isEmpty()) {
 			System.out.println(":::::::::::::::::::::::");
-			System.out.println(":: Correction Reprot ::");
+			System.out.println(":: Correction Report ::");
 			System.out.println(":::::::::::::::::::::::");
 			for(String line : errorCorrectionsReport) {
 				System.out.println("Correction "+ count++ +": " + line);
